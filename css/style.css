@@ -1,0 +1,33 @@
+   @font-face {
+       font-family: DomaineDisplay;
+       src: url("../assets/fonts/DomaineDisplayTest-Semibold.otf") format("opentype");
+   }
+
+   html {
+       font-family: DomaineDisplay;
+       background-color: rgb(232, 231, 228);
+   }
+
+   h1 {
+       font-size: 3em;
+       text-align: center;
+
+   }
+
+
+   .container {
+       /* display: flex;
+       flex-direction: column;
+       align-items: center; */
+       /* Centers content horizontally */
+   }
+
+
+
+   p {
+       text-align: center;
+   }
+
+   div {
+       text-align: center;
+   }
