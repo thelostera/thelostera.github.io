@@ -9,9 +9,13 @@
    }
 
    h1 {
-       font-size: 3em;
+       font-size: 4em;
        text-align: center;
 
+   }
+
+   .button {
+       transition-duration: 0.4s;
    }
 
 
