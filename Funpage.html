@@ -37,8 +37,15 @@
         <br />
         <iframe id="bitsy" src="assets/bitsy/bitsy12.html" style="border:none" height=512px width=512px></iframe>
         <br />
-        <button type="button"><img src="assets/images/Untitled_Artwork 9.png"
-                style="width:30px ;height: 30px;"></button>
+        <script>
+            function playMusic() {
+                <var></var> music = new Audio("assets/sounds/side_a.wav");
+                music.play();
+            }
+        </script>
+
+        <input type="button"><img src="assets/images/Untitled_Artwork 9.png" style="width:30px ;height: 30px;"
+            onclick="playMusic()" />
         <audio controls>
 
             <source src="assets/sounds/side_a.wav" type="audio/wav">
