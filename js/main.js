@@ -1,6 +1,6 @@
 
 
-const playButton = document.getElementById("music-button");
+
 // Load our song
 let song = new Audio("assets/sounds/side_a.wav");
 // Get the play button so we can talk to it
